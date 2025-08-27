@@ -1,11 +1,19 @@
 <!doctype html>
 <html lang="en" data-bs-theme="dark">
     <head>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
         <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <title>Ankit - Web & App developer</title>
 <script src="assets/js/vendors/color-modes.js"></script>
+<script type="text/javascript">
+   (function() {
+      emailjs.init("VKhAoezf3NLBBvpWz"); // Replace with your key from EmailJS dashboard
+   })();
+</script>
+
 <!-- Favicon icon-->
 <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/favicon-gradient.svg" />
 <!-- Libs CSS -->
@@ -238,7 +246,7 @@
                                 &lt;/span&gt;
                             </div>
                             <h1 class="fs-50 my-3"><span class="text-linear-4">{AI/ML}</span> Specialist · <span class="text-linear-4">{Full‑Stack}</span> Web Developer<span class="flicker">_</span></h1>
-                            <p class="mb-6 text-secondary-2"><span class="text-dark">I build intelligent, high‑performance products at the intersection of software engineering and machine learning</span>. From elegant interfaces to resilient APIs and data pipelines, I work with <span class="text-secondary-2">Node.js</span>, <span class="text-secondary-2">React</span>, <span class="text-secondary-2">Angular</span>, and <span class="text-secondary-2">Laravel</span>—and apply <span class="text-secondary-2">AI</span>/<span class="text-secondary-2">ML</span> to automate workflows, personalize experiences, and turn data into decisions.</p>
+                            <p class="mb-6 text-secondary-2">Proficient Full Stack Developer with extensive experience in developing scalable frontend and backend systems and full-stack apps. Eager to bring a fresh perspective, adaptability, and enthusiasm to a dynamic team.</p>
                             <div class="row">
                                 <div class="col-7">
                                     <!-- Carausel Scroll -->
@@ -392,7 +400,7 @@
                                         <path d="M21 3C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H21ZM20 11H4V19H20V11ZM20 5H4V9H20V5ZM11 6V8H9V6H11ZM7 6V8H5V6H7Z" fill="#1F1F24" />
                                     </svg>
                                     <h6 class="my-3 fw-medium">Web & App Development</h6>
-                                    <p class="fs-7 text-300 fw-regular">Crafting visually appealing and user-friendly interfaces using <span class="text-secondary-2">HTML</span>, <span class="text-secondary-2">CSS</span>, <span class="text-secondary-2">JavaScript</span>, and modern frameworks like React and Angular.</p>
+                                    <p class="fs-7 text-300 fw-regular">Crafting visually appealing and user-friendly interfaces using <span class="text-secondary-2">HTML</span>, <span class="text-secondary-2">CSS</span>, <span class="text-secondary-2">JavaScript</span>, and modern frameworks like React and .</p>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
@@ -892,19 +900,19 @@
                                                 </li>
                                                 <li class="carouselTicker__item mt-6">
                                                     <a href="#" class="brand-logo icon_80 icon-shape rounded-3">
-                                                        <img src="assets/imgs/home-page-2/hero-1/icon-8.svg" alt="brand" />
+                                                        <img src="assets/imgs/home-page-2/hero-1/icon-6.svg" alt="brand" />
                                                     </a>
                                                     <span class="tool-tip">Angular</span>
                                                 </li>
                                                 <li class="carouselTicker__item mt-6">
                                                     <a href="#" class="brand-logo icon_80 icon-shape rounded-3">
-                                                        <img src="assets/imgs/home-page-2/hero-1/icon-9.svg" alt="brand" />
+                                                        <img src="assets/imgs/home-page-2/hero-1/icon-3.svg" alt="brand" />
                                                     </a>
                                                     <span class="tool-tip">Laravel</span>
                                                 </li>
                                                 <li class="carouselTicker__item mt-6">
                                                     <a href="#" class="brand-logo icon_80 icon-shape rounded-3">
-                                                        <img src="assets/imgs/home-page-2/hero-1/icon-5.svg" alt="brand" />
+                                                        <img src="assets/imgs/home-page-2/hero-1/icon-2.svg" alt="brand" />
                                                     </a>
                                                     <span class="tool-tip">Tailwind</span>
                                                 </li>
@@ -927,7 +935,7 @@
                                                 <li class="mb-3">
                                                     <div class="d-flex flex-column flex-md-row gap-2">
                                                         <p class="text-dark text-nowrap mb-0">Front-End:</p>
-                                                        <span class="text-300">HTML, CSS, JavaScript, React, Angular</span>
+                                                        <span class="text-300">HTML, CSS, JavaScript, React</span>
                                                     </div>
                                                 </li>
                                                 <li class="mb-3">
@@ -994,28 +1002,29 @@
                 <div class="position-relative">
                     <div class="position-relative z-2">
                         <h3 class="text-primary-2 mb-3">Let's connect</h3>
-                        <form action="#">
+                        <form id="contactForm" action="#" data-service-id="service_bnv6is4" data-template-id="template_3j08hcn">
                             <div class="row g-3">
                                 <div class="col-md-6 ">
-                                    <input type="text" class="form-control bg-3 border border-1 rounded-3" id="name" name="name" placeholder="Your name" aria-label="username" />
+                                    <input type="text" class="form-control bg-3 border border-1 rounded-3" id="name" name="name" placeholder="Your name" aria-label="username" required />
                                 </div>
                                 <div class="col-md-6">
                                     <input type="text" class="form-control bg-3 border border-1 rounded-3" id="phone" name="phone" placeholder="Phone" aria-label="phone" />
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control bg-3 border border-1 rounded-3" id="email" name="email" placeholder="Emaill" aria-label="email" />
+                                    <input type="email" class="form-control bg-3 border border-1 rounded-3" id="email" name="email" placeholder="Email" aria-label="email" required />
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control bg-3 border border-1 rounded-3" id="subject" name="subject" placeholder="Subject" aria-label="subject" />
+                                    <input type="text" class="form-control bg-3 border border-1 rounded-3" id="subject" name="subject" placeholder="Subject" aria-label="subject" required />
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-3 border border-1 rounded-3" id="message" name="message" placeholder="Message" aria-label="With textarea"></textarea>
+                                    <textarea class="form-control bg-3 border border-1 rounded-3" id="message" name="message" placeholder="Message" aria-label="With textarea" required></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button type="submit" class="btn btn-primary-2 rounded-2">
                                         Send Message
                                         <i class="ri-arrow-right-up-line"></i>
                                     </button>
+                                    <span id="formStatus" class="ms-3 text-300"></span>
                                 </div>
                             </div>
                         </form>
@@ -1142,6 +1151,39 @@
 <script src="assets/js/vendors/aat.min.js"></script>
 <!-- Theme JS -->
 <script src="assets/js/main.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var form = document.getElementById('contactForm');
+    if (!form || typeof emailjs === 'undefined') return;
+
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        var submitBtn = form.querySelector('button[type="submit"]');
+        if (submitBtn) submitBtn.disabled = true;
+        var statusEl = document.getElementById('formStatus');
+        if (statusEl) statusEl.textContent = 'Sending...';
+
+        // Read Service/Template IDs from data attributes on the form
+        var serviceId = form.getAttribute('data-service-id');
+        var templateId = form.getAttribute('data-template-id');
+
+        emailjs.sendForm(serviceId, templateId, '#contactForm')
+            .then(function () {
+                if (statusEl) statusEl.textContent = 'Message sent successfully!';
+                form.reset();
+            })
+            .catch(function (error) {
+                console.error('EmailJS error:', error);
+                if (statusEl) statusEl.textContent = 'Failed to send. Please try again later.';
+            })
+            .finally(function () {
+                if (submitBtn) submitBtn.disabled = false;
+            });
+    });
+});
+</script>
 
     </body>
 </html>
